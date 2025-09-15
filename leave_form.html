@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for Leave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apply for Leave</h1>
+  </header>
+
+  <div class="container">
+    <div class="form-box">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="department">Department</label>
+        <input type="text" id="department" placeholder="Your Department" required>
+
+        <label for="leaveType">Leave Type</label>
+        <select id="leaveType">
+          <option>Sick Leave</option>
+          <option>Casual Leave</option>
+          <option>Other</option>
+        </select>
+
+        <label for="fromDate">From Date</label>
+        <input type="date" id="fromDate" required>
+
+        <label for="toDate">To Date</label>
+        <input type="date" id="toDate" required>
+
+        <label for="reason">Reason</label>
+        <textarea id="reason" placeholder="Enter reason" rows="4"></textarea>
+
+        <button type="submit">Submit Leave</button>
+      </form>
+    </div>
+  </div>
+  <a href="logout.php">Logout</a>
+
+
+
+  <footer>
+    <p>&copy; 2024 College Leave Management System</p>
+  </footer>
+</body>
+</html>

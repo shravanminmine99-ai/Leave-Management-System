@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leave Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="fade-in">
+    <h1>College Leave Management System</h1>
+  </header>
+
+  <div class="container fade-in-up">
+    <div class="form-box">
+      <h2>Login</h2>
+      <form action="login.php" method="POST">
+        <label for="role">Role</label>
+        <select id="role" name="role">
+          <option value="student">Student</option>
+          <option value="staff">Staff</option>
+        </select>
+
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter username" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter password" required>
+
+        <button type="submit" class="btn">Login</button>
+        <p>Don’t have an account? <a href="register.php">Register here</a></p>
+
+      </form>
+
+      <!-- HOD Login button -->
+      <div class="hod-section">
+        
+        <a href="hod_login.php">
+          <button type="button" class="btn btn-hod">Go to HOD Login</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="slide-up">
+    <p>&copy; 2024 College Leave Management System</p>
+  </footer>
+</body>
+</html>
