@@ -1,0 +1,176 @@
+/* General page styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Centered container for forms */
+.box {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Inputs and buttons */
+.box input[type="email"],
+.box input[type="password"],
+.box input[type="text"],
+.box select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.box button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background-color: #45a049;
+}
+
+/* Error message */
+.error {
+  color: #b30000;
+  background: #ffe0e0;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Links under form */
+.box p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.box p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.box p a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation bar (for dashboards) */
+.nav {
+  background: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+.nav a {
+  color: white;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+/* Table styles (for dashboards) */
+.content {
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+/* Container for forms like Apply Leave */
+form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Headings above the form */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Label styles */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  color: #333;
+}
+
+/* Inputs, selects, textareas */
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #fdfdfd;
+}
+
+/* Textarea resizing */
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit button */
+form button[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #45a049;
+}
